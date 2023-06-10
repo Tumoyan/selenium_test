@@ -12,7 +12,6 @@ from selenium.common.exceptions import NoSuchElementException
 from threading import Thread
 
 load_dotenv()
-# you need to replace second BROWSERSTACK_USERNAME and BROWSERSTACK_ACCESS_KEY for your credentials
 BROWSERSTACK_USERNAME = os.environ.get("BROWSERSTACK_USERNAME") or ""
 BROWSERSTACK_ACCESS_KEY = os.environ.get("BROWSERSTACK_ACCESS_KEY") or ""
 URL = os.environ.get("URL") or "https://hub.browserstack.com/wd/hub"
